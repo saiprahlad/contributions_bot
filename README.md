@@ -141,7 +141,9 @@ hint: This is usually caused by another repository pushing to the same ref.
        ```
 
 - Solution 2: Force Push (⚠ Use with Caution)
-- git push origin main --force
-  
+      ```
+      git push origin main --force
+      ```
+I did Solution 1 to slove the issue
 
 Happy Coding! 🚀
