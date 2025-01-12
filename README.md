@@ -121,4 +121,24 @@ Congratulations! Your bot now generates random backdated commits to simulate act
 
 ---
 
+## The error you're encountering is:
+```planetext
+error: failed to push some refs to 'https://github.com/Bhanutejagiddaluru/contributions_bot.git'
+hint: Updates were rejected because the remote contains work that you do not have locally.
+hint: This is usually caused by another repository pushing to the same ref.
+```
+
+- ⚠ Reason: Your local repository is behind the remote repository. This means there are new commits on GitHub that you haven't fetched yet.
+- Solution 1: Pull and Push
+  - Run these commands in the terminal to sync your local and remote repositories:
+    1. Pull the latest changes from the remote
+      - git pull origin main --rebase
+    2. Push your commits after syncing
+      - git push origin main
+
+
+- Solution 2: Force Push (⚠ Use with Caution)
+- git push origin main --force
+  
+
 Happy Coding! 🚀
