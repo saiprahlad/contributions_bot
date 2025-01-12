@@ -144,6 +144,7 @@ hint: This is usually caused by another repository pushing to the same ref.
       ```
       git push origin main --force
       ```
-I did Solution 1 to slove the issue
+
+- I did Solution 1 to slove the issue
 
 Happy Coding! 🚀
