@@ -155,7 +155,8 @@ hint: This is usually caused by another repository pushing to the same ref.
 
 ### error related Node.js
 
-!(Error1)(error1.png)
-!(Error_solution)(solution_for_error1.jpg)
+![Error1](error1.png)
+#### solution to error
+![Error_solution](solution_for_error1.jpg)
 
 Happy Coding! 🚀
