@@ -132,10 +132,13 @@ hint: This is usually caused by another repository pushing to the same ref.
 - Solution 1: Pull and Push
   - Run these commands in the terminal to sync your local and remote repositories:
     1. Pull the latest changes from the remote
+       ```plane text
       - git pull origin main --rebase
+       ```
     2. Push your commits after syncing
+       ```plane text
       - git push origin main
-
+       ```
 
 - Solution 2: Force Push (⚠ Use with Caution)
 - git push origin main --force
