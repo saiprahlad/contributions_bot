@@ -121,7 +121,7 @@ Congratulations! Your bot now generates random backdated commits to simulate act
 
 ---
 
-## The error you're encountering is:
+## Possbile error encountering:
 ```planetext
 error: failed to push some refs to 'https://github.com/Bhanutejagiddaluru/contributions_bot.git'
 hint: Updates were rejected because the remote contains work that you do not have locally.
