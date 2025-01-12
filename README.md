@@ -6,7 +6,7 @@ This guide explains how to set up a simple Node.js script that automatically cre
 
 ## 📝 Prerequisites
 
-- **Node.js** and **npm** installed
+- **Node.js** and **npm** installed   -- Downloading link for Node.js ---> https://nodejs.org/en
 - **Git** installed
 - A **GitHub account** with a **private repository** created
 
@@ -146,5 +146,12 @@ hint: This is usually caused by another repository pushing to the same ref.
       ```
 
 - I did Solution 1 to slove the issue
+
+```planetext
+error: failed to push some refs to 'https://github.com/Bhanutejagiddaluru/contributions_bot.git'
+hint: Updates were rejected because the remote contains work that you do not have locally.
+hint: This is usually caused by another repository pushing to the same ref.
+```
+
 
 Happy Coding! 🚀
